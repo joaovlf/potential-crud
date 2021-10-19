@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+html{
+  
+    
+    background-color: #5D42A6;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    
+}
+::-webkit-scrollbar {
+  width:0.4vw;
+  }
+  ::-webkit-scrollbar-track {
+    background:#5D42A6;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #372668;
+      }
+body,*{
+    /*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    */
+    letter-spacing:0.2vw;
+    font-size: 0.9rem;
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    html {
+
+      font-size: 0.6rem;
+    }
+  }
+  @media only screen and (max-width: 1050px) {
+    html {
+
+      font-size: 0.4rem;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    html {
+  
+      font-size: 0.6rem;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    html {
+   
+      font-size: 0.5rem;
+     
+    }
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    html {
+   
+      font-size: 0.3rem;
+   
+     
+     
+    }
+    
+  }

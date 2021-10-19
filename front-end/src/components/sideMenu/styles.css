@@ -1,0 +1,59 @@
+
+.side-bar{
+    background-color: rgba(0, 0, 0, 0.131);
+    color: rgb(255, 255, 255);
+    min-height: 50vh;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    top: 0vh;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.213);
+    display: block;
+}
+a{
+  
+    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.563); ;
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, rgb(65, 32, 155) , rgb(158, 8, 218));
+    border-image-slice: 1;
+    
+}
+a:hover{
+   animation: bounce 0.5s ;
+    transition-delay:0.1s;
+    color:rgb(255, 255, 255);
+    border-image: linear-gradient(to right, rgb(86, 43, 206) , rgb(169, 9, 232));
+    border-image-slice: 1;
+
+}
+
+
+  @media only screen and (max-width: 800px) {
+    .side-bar {
+      width: 20vw
+      
+    }
+    a{
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .side-bar{
+        width: 20vw
+    }
+   
+  }
+  @keyframes bounce {
+    from {
+      transform: translateX(-2px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }

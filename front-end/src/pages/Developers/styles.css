@@ -1,0 +1,51 @@
+
+  
+
+.button{
+    background-color: #0000000e;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    left: 50vw;
+    font-size: 1.2rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.241);
+    
+   
+  
+   
+  }
+  
+  .button:hover{
+    background-color: #895eff91;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    animation: bounce 0.5s ; 
+  }
+
+  .button-search{
+    background-color: #0000000e;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
+  }
+
+  .form{
+    height: 10vh;
+    color: aliceblue;
+    font-weight: bold;
+    width: 50vw;
+  }
+
+  .input-dev-page{
+    font-size:1rem;
+    height: 20vh;
+    width: 30vw;
+  }
+  
+  

@@ -1,0 +1,41 @@
+
+
+input{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.138);
+    border: none;
+    border-radius: 2px;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+input:hover{
+    background-color: rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+form{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin: 1rem auto;
+    border-radius: 5px;
+    height: 40vh;
+  
+}
+
+@keyframes bounce {
+    from {
+      transform: translateX(-5px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }

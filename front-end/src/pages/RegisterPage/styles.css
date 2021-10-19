@@ -1,0 +1,139 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.131);
+    color: rgb(238, 238, 238);
+    max-width: 50vw;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    min-height: 50vh;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.323);
+    position: relative;
+    top: 8vh;
+    animation: bounce 0.5s ;
+    
+}
+button{
+  border: 1px solid red;
+}
+input{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.138);
+    border: none;
+    border-radius: 2px;
+    width: 70%;
+}
+label{
+  font-size: 1.2rem;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+input:hover{
+    background-color: rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+form{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin: 1rem auto;
+    border-radius: 5px;
+    height: 40vh;
+  
+}
+.button1{
+  background-color: #0000000e;
+  color: rgb(255, 255, 255);
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+
+ 
+}
+
+.button1:hover{
+  background-color: #895eff91;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  animation: bounce 0.5s ; 
+}
+
+button{
+  margin: 0.4rem;
+  position: relative;
+  left: 0vw;
+  top:0vh;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.241);
+  
+ 
+}
+
+
+
+@keyframes bounce {
+    from {
+      transform: translateX(-5px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
+
+  
+  @media only screen and (max-width: 1300px) {
+    .button1{
+      width: 50%;
+      font-size: 2rem;
+    }
+    .form-register{
+      width: 70%;
+    }
+    input{
+      width: 70%;
+      height: 8%;
+
+    }
+
+    label{
+      font-size: 2rem;
+
+    }
+
+    
+    
+  }
+  @media only screen and (max-width: 700px) {
+    .button1{
+      width: 50%;
+      font-size: 2rem;
+    }
+    form{
+      width: 100%;
+    }
+    input{
+      width: 70%;
+      height: 8%;
+
+    }
+
+    label{
+      font-size: 2rem;
+
+    }
+
+    
+    
+  }
+ 
+  
+    
+  
