@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1634587909732" clover="3.2.0">
+  <project timestamp="1634587909732" name="All files">
+    <metrics statements="39" coveredstatements="37" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="8" elements="54" coveredelements="50" complexity="0" loc="39" ncloc="39" packages="2" files="2" classes="2"/>
+    <package name="controllers">
+      <metrics statements="25" coveredstatements="23" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="6"/>
+      <file name="developerController.ts" path="C:\Users\joao\Desktop\Portifolio\potential-crud\back-end\src\controllers\developerController.ts">
+        <metrics statements="25" coveredstatements="23" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="entities">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Developer.ts" path="C:\Users\joao\Desktop\Portifolio\potential-crud\back-end\src\entities\Developer.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="98" type="stmt"/>
+        <line num="7" count="98" type="stmt"/>
+        <line num="8" count="98" type="stmt"/>
+        <line num="9" count="98" type="stmt"/>
+        <line num="10" count="98" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
